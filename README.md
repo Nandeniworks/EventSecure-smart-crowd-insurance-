@@ -1,1 +1,0 @@
-# EventSecure-smart-crowd-insurance-

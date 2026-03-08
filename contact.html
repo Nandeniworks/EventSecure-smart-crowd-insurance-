@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | EventSecure</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+      <a class="logo" href="index.html">EventSecure</a>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="coverage.html">Coverage</a></li>
+          <li><a href="calculator.html">Calculator</a></li>
+          <li><a href="plans.html">Plans</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">&#9776;</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero hero-blobs">
+      <div class="container fade-up">
+        <h1>Request a Quote</h1>
+        <p class="muted">Send event details and we’ll respond with support information.</p>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container contact-grid">
+        <section class="glass fade-up">
+          <h2 class="card-title">Quote Request Form</h2>
+
+          <form id="contactForm" class="form">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="message">Event Details</label>
+            <textarea id="message" rows="5" placeholder="Event type, date, attendees, and coverage needs..." required></textarea>
+
+            <button class="btn-primary full" type="submit">Submit Request</button>
+            <p id="formMessage" class="small"></p>
+          </form>
+        </section>
+
+        <aside class="glass fade-up">
+          <h2 class="card-title">Support Details</h2>
+          <p class="muted">For academic demo: form shows confirmation message after validation.</p>
+
+          <div class="support-box">
+            <div class="support-item">
+              <div class="muted">Email</div>
+              <div class="strong">support@eventsecure.demo</div>
+            </div>
+            <div class="support-item">
+              <div class="muted">Phone</div>
+              <div class="strong">+91 90000 00000</div>
+            </div>
+            <div class="support-item">
+              <div class="muted">Hours</div>
+              <div class="strong">Mon–Sat, 10am–6pm</div>
+            </div>
+          </div>
+
+          <a class="btn-secondary full" href="calculator.html">Back to Calculator</a>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>EventSecure</p>
+      <p class="muted">Form Validation + Confirmation Message</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

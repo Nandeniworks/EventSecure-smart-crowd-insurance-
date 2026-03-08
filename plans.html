@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plans | EventSecure</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+      <a class="logo" href="index.html">EventSecure</a>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="coverage.html">Coverage</a></li>
+          <li><a href="calculator.html">Calculator</a></li>
+          <li><a class="active" href="plans.html">Plans</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">&#9776;</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero hero-blobs">
+      <div class="container fade-up">
+        <h1>Plans & Comparison</h1>
+        <p class="muted">Choose a plan and compare risk category benefits and add-on options.</p>
+      </div>
+    </section>
+
+    <!-- Pricing cards (Grid) -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="plans-grid">
+          <article class="plan glass fade-up">
+            <h3>Basic</h3>
+            <div class="price">₹ 15,000+</div>
+            <ul class="mini-list">
+              <li>Low risk events</li>
+              <li>Standard liability cover</li>
+              <li>Basic support</li>
+            </ul>
+            <a class="btn-secondary full" href="calculator.html">Select</a>
+          </article>
+
+          <article class="plan glass featured fade-up">
+            <span class="badge">Most Popular</span>
+            <h3>Standard</h3>
+            <div class="price">₹ 30,000+</div>
+            <ul class="mini-list">
+              <li>Low/Medium risk events</li>
+              <li>Equipment add-on option</li>
+              <li>Priority support</li>
+            </ul>
+            <a class="btn-primary full" href="calculator.html">Select</a>
+          </article>
+
+          <article class="plan glass fade-up">
+            <h3>Premium</h3>
+            <div class="price">₹ 50,000+</div>
+            <ul class="mini-list">
+              <li>High risk events</li>
+              <li>VIP + Weather options</li>
+              <li>Dedicated support</li>
+            </ul>
+            <a class="btn-secondary full" href="calculator.html">Select</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparison table (Required) -->
+    <section class="section">
+      <div class="container">
+        <div class="section-title fade-up">
+          <h2>Risk Category Comparison Table</h2>
+          <p class="muted">Structured comparison of coverage and add-ons by risk level.</p>
+        </div>
+
+        <div class="table-wrap glass fade-up">
+          <div class="table-grid">
+            <div class="th">Risk Level</div>
+            <div class="th">Recommended For</div>
+            <div class="th">Key Coverage</div>
+            <div class="th">Common Add-ons</div>
+
+            <div class="td"><span class="risk-pill low">Low</span></div>
+            <div class="td">Corporate meets, seminars</div>
+            <div class="td">Basic liability + crowd support</div>
+            <div class="td">Equipment Protection</div>
+
+            <div class="td"><span class="risk-pill medium">Medium</span></div>
+            <div class="td">Exhibitions, trade shows</div>
+            <div class="td">Liability + equipment risks</div>
+            <div class="td">Equipment + Weather</div>
+
+            <div class="td"><span class="risk-pill high">High</span></div>
+            <div class="td">Concerts, large crowds</div>
+            <div class="td">Crowd injury + emergency support</div>
+            <div class="td">VIP + Weather + Equipment</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cta glass fade-up">
+        <div>
+          <h2>Need exact pricing?</h2>
+          <p class="muted">Use the calculator for a detailed breakdown based on your event details.</p>
+        </div>
+        <a class="btn-primary" href="calculator.html">Open Calculator</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>EventSecure</p>
+      <p class="muted">CSS Grid Comparison Table + Pricing Cards</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

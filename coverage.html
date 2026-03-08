@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coverage | EventSecure</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+      <a class="logo" href="index.html">EventSecure</a>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="coverage.html">Coverage</a></li>
+          <li><a href="calculator.html">Calculator</a></li>
+          <li><a href="plans.html">Plans</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">&#9776;</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero hero-blobs">
+      <div class="container fade-up">
+        <h1>Coverage Options</h1>
+        <p class="muted">Explore coverage types with risk labels and benefits.</p>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="cards-flex">
+          <article class="coverage-card glass fade-up">
+            <span class="risk-badge low">Low</span>
+            <h3>Public Liability</h3>
+            <p class="muted">Protects against third-party injury or property damage during the event.</p>
+            <ul class="mini-list">
+              <li>Claims support</li>
+              <li>Venue protection</li>
+              <li>Legal assistance</li>
+            </ul>
+          </article>
+
+          <article class="coverage-card glass fade-up">
+            <span class="risk-badge medium">Medium</span>
+            <h3>Equipment Protection</h3>
+            <p class="muted">Covers damage or loss of rented/owned event equipment.</p>
+            <ul class="mini-list">
+              <li>Sound & lights</li>
+              <li>Stage equipment</li>
+              <li>Accidental damage</li>
+            </ul>
+          </article>
+
+          <article class="coverage-card glass fade-up">
+            <span class="risk-badge high">High</span>
+            <h3>Crowd Injury Cover</h3>
+            <p class="muted">Coverage for crowd-related accidents and medical emergencies.</p>
+            <ul class="mini-list">
+              <li>Medical support</li>
+              <li>Emergency response</li>
+              <li>High-crowd events</li>
+            </ul>
+          </article>
+
+          <article class="coverage-card glass fade-up">
+            <span class="risk-badge medium">Medium</span>
+            <h3>Weather Protection</h3>
+            <p class="muted">Helps reduce loss due to weather disruptions (for outdoor events).</p>
+            <ul class="mini-list">
+              <li>Rain disruption</li>
+              <li>Reschedule support</li>
+              <li>Outdoor safety</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cta glass fade-up">
+        <div>
+          <h2>Want a personalized estimate?</h2>
+          <p class="muted">Use the calculator to select event type, attendees, duration, risk, and add-ons.</p>
+        </div>
+        <a class="btn-primary" href="calculator.html">Calculate Premium</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>EventSecure</p>
+      <p class="muted">Coverage Cards + Risk Labels</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
